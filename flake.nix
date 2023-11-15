@@ -12,8 +12,8 @@
       lib = pkgs.lib;
 
       choregrapheSrc = pkgs.fetchurl {
-        url = "https://community-static.aldebaran.com/resources/2.8.8/choregraphe-2.8.8-ubuntu2204-standalone.tar.gz";
-        sha256 = "sha256-DjAnMDC+JOVV9IrAQln74Jsk6hAuWzKm5qH/EoOrBPk=";
+        url = "https://community-static.aldebaran.com/resources/2.5.10/Choregraphe/choregraphe-suite-2.5.10.7-linux64.tar.gz";
+        sha256 = "sha256-672MCA/zqthFizkz4ARrz7p0M4XLJ+UsCWI7tKKVQUo=";
       };
 
       choregrapheApp = stdenv.mkDerivation {
